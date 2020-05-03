@@ -4,7 +4,6 @@
   Final Project
   Due: 5/3/2020
 *****************************************/
-
 $(function () {
   $(newCard);
   var score = 0;
@@ -142,6 +141,4 @@ $(function () {
     score = 0;
     newCard();
   }
-});
-  
 });

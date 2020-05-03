@@ -110,7 +110,7 @@ $(function () {
     document.getElementById("card").innerHTML =
       '<img src="img/' +
       currentCard.image +
-      '.png" alt = "card icon"><h2>' +
+      '.png" alt = "Card Icon"><h2>' +
       currentCard.suit +
       "<p>" +
       currentCard.value +

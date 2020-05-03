@@ -108,9 +108,9 @@ $(function () {
     var index = getRandom(10);
     var currentCard = stack[index];
     document.getElementById("card").innerHTML =
-      '<img src="images/' +
+      '<img src="img/' +
       currentCard.image +
-      '.jpg"><h2>' +
+      '.jpg" alt = "card icon"><h2>' +
       currentCard.suit +
       "<p>" +
       currentCard.value +

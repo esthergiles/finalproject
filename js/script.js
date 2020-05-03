@@ -4,6 +4,7 @@
   Final Project
   Due: 5/3/2020
 *****************************************/
+
 $(function () {
   $(newCard);
   var score = 0;
@@ -111,9 +112,9 @@ $(function () {
       currentCard.image +
       '.png" alt = "Card Icon"><h2>' +
       currentCard.suit +
-      "<p>" +
+      '<p>' +
       currentCard.value +
-      "</p></h2>";
+      '</p></h2>';
     cardCount++;
   }
 

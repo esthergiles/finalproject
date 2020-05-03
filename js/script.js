@@ -107,17 +107,17 @@ $(function () {
   function newCard() {
     var index = getRandom(10);
     var currentCard = stack[index];
+
     document.getElementById("card").innerHTML =
-      '<img src="img/' +
-      currentCard.image +
-      '.png" alt = "Card Icon"><h2>' +
+      '<h2>' +
       currentCard.suit +
       "<p>" +
       currentCard.value +
       "</p></h2>";
+    
     cardCount++;
   }
-
+  
   /*********************************
           Scoring
   **********************************/

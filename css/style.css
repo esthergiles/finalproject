@@ -1,0 +1,137 @@
+/******************************************
+  Name: Esther Brown
+  CIS 376 Spring 2020
+  Final Project
+  Due: 5/3/2020
+  *****************************************/
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:700");
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #212121;
+  font-family: "Fredoka One", sans-serif;
+  background-color: #9ccc65;
+}
+
+/* .container{
+    padding-top: 3rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+} */
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+.header-box {
+  background: #ba68c8;
+  color: #fff;
+  margin: 0 0 20px 0;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+.header {
+  text-align: center;
+  color: #212121;
+  /*   border-radius: 25px; */
+}
+h1 {
+  font-family: "Fredoka One", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-size: 30px;
+  text-shadow: 0 1px 0px #4a2c2c;
+  margin: 0;
+}
+
+/* Center align the text within the three columns */
+.column .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.column h2 {
+  font-weight: normal;
+}
+.column .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
+  border-radius: 1.5rem;
+  width: 250px;
+  height: 315px;
+  border: thin 50px black;
+  cursor: pointer;
+}
+/* applys a border to the left and right card slots*/
+.slot{
+  border: dashed;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath opacity=".5" d="M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z"/%3E%3Cpath d="M6 5V0H5v5H0v1h5v94h1V6h94V5H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+.fa-social-icons {
+  text-align: center;
+}
+
+.fa-social-icons ul li {
+  display: inline-block;
+}
+
+.fa-social-icons ul li a {
+  color: #fff;
+}
+
+.fa-social-icons ul li a {
+  width: 40px;
+  top: 5px;
+  position: relative;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.fa-social-icons ul li a:hover {
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+
+.hold {
+  border: solid #7b1fa2 4px;
+  cursore: pointer;
+}
+
+.hovered {
+  border: solid #7b1fa2 4px;
+  background-color: #fff;
+  
+}
+
+.invisible{
+  display: none;
+}
